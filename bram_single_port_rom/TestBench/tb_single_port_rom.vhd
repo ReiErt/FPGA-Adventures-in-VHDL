@@ -1,6 +1,7 @@
+-- TB requests output of all values from ROM from 0 to MAX
+
 library ieee;
 use ieee.std_logic_1164.all;
--- use IEEE.std_logic_arith.all;
 use ieee.numeric_std.all;
 use STD.textio.all;
 use ieee.std_logic_textio.all;
