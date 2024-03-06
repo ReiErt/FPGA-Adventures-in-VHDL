@@ -1,0 +1,86 @@
+
+C:\hdl-Clone\single_port_rom\tmp>vmap unimacro ../../ms_sim_lib/unimacro 
+Model Technology ModelSim - Intel FPGA Edition vmap 2021.1 Lib Mapping Utility 2021.02 Feb  3 2021
+vmap unimacro ../../ms_sim_lib/unimacro 
+Modifying modelsim.ini
+
+C:\hdl-Clone\single_port_rom\tmp>vmap unisim ../../ms_sim_lib/unisim 
+Model Technology ModelSim - Intel FPGA Edition vmap 2021.1 Lib Mapping Utility 2021.02 Feb  3 2021
+vmap unisim ../../ms_sim_lib/unisim 
+Modifying modelsim.ini
+
+C:\hdl-Clone\single_port_rom\tmp>vmap xpm ../../ms_sim_lib/xpm 
+Model Technology ModelSim - Intel FPGA Edition vmap 2021.1 Lib Mapping Utility 2021.02 Feb  3 2021
+vmap xpm ../../ms_sim_lib/xpm 
+Modifying modelsim.ini
+
+C:\hdl-Clone\single_port_rom\tmp>vcom -2008 -check_synthesis ../../package/type_definitions_pckg.vhd 
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+Start time: 10:32:00 on Apr 20,2023
+vcom -2008 -check_synthesis ../../package/type_definitions_pckg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling package type_definitions_pckg
+-- Compiling package body type_definitions_pckg
+-- Loading package type_definitions_pckg
+End time: 10:32:00 on Apr 20,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+C:\hdl-Clone\single_port_rom\tmp>vcom -2008 -check_synthesis ../../package/function_pckg.vhd 
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+Start time: 10:32:00 on Apr 20,2023
+vcom -2008 -check_synthesis ../../package/function_pckg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package MATH_REAL
+-- Loading package type_definitions_pckg
+-- Compiling package function_pckg
+-- Compiling package body function_pckg
+-- Loading package function_pckg
+End time: 10:32:01 on Apr 20,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+C:\hdl-Clone\single_port_rom\tmp>vcom -2008 -check_synthesis ../../single_port_rom/src/single_port_rom.vhd 
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+Start time: 10:32:01 on Apr 20,2023
+vcom -2008 -check_synthesis ../../single_port_rom/src/single_port_rom.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package VCOMPONENTS
+-- Loading package VCOMPONENTS
+-- Compiling entity single_port_rom
+-- Compiling architecture rtl of single_port_rom
+End time: 10:32:01 on Apr 20,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+C:\hdl-Clone\single_port_rom\tmp>vcom -2008 -check_synthesis ../../single_port_rom/TestBench/tb_single_port_rom.vhd 
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+Start time: 10:32:01 on Apr 20,2023
+vcom -2008 -check_synthesis ../../single_port_rom/TestBench/tb_single_port_rom.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package MATH_REAL
+-- Loading package VCOMPONENTS
+-- Loading package VCOMPONENTS
+-- Loading package type_definitions_pckg
+-- Loading package function_pckg
+-- Compiling entity tb_single_port_rom
+-- Compiling architecture sim of tb_single_port_rom
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity single_port_rom
+End time: 10:32:02 on Apr 20,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
