@@ -1,5 +1,5 @@
 # VHDL Modules and FPGA IP Cores
-Target is Zynqberry SoC TE0726 with Xilinx FPGA
+Target is Zynqberry SoC TE0726 with Xilinx FPGA. Features AXI interface to help pipelining.
 
 ## Supported Wave
 IP has been optimsed for the sine wave, as only a fourth of a sinewave's period is necessary to recreate it in full. Adding other wave forms is a simple matter of plotting their data with numpy over python and instantiating block ram with those values.
